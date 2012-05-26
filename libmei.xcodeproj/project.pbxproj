@@ -102,6 +102,95 @@
 		827EF456142CE661007B9789 /* mxmltomei.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 827EF455142CE661007B9789 /* mxmltomei.cpp */; };
 		828D9CD71434DD42008DEF7B /* parttime.xsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 825732E31431308800F3868D /* parttime.xsl */; };
 		82C136A0142CDC5200D052A0 /* mei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DBCCCF1312C85D00B46918 /* mei.framework */; };
+		8FA781FC1570C45B0031FD74 /* xmlexport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A64413FD6C2100310111 /* xmlexport.cpp */; };
+		8FA781FD1570C45E0031FD74 /* xmlimport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A64213FD6C0900310111 /* xmlimport.cpp */; };
+		8FA781FE1570C4680031FD74 /* meielement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4E743131D570100A59F5D /* meielement.cpp */; };
+		8FA781FF1570C4680031FD74 /* meiattribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CB63B13214C430054C2DC /* meiattribute.cpp */; };
+		8FA782001570C4680031FD74 /* meidocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC6438132A90430062255E /* meidocument.cpp */; };
+		8FA782011570C4680031FD74 /* meinamespace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 053321C21402DBF400B89665 /* meinamespace.cpp */; };
+		8FA782021570C4950031FD74 /* analysismixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A64813FD6D6000310111 /* analysismixins.cpp */; };
+		8FA782031570C4950031FD74 /* cmn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A64A13FD6D6000310111 /* cmn.cpp */; };
+		8FA782041570C4950031FD74 /* cmnmixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A64C13FD6D6000310111 /* cmnmixins.cpp */; };
+		8FA782051570C4950031FD74 /* cmnornaments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A64E13FD6D6000310111 /* cmnornaments.cpp */; };
+		8FA782061570C4950031FD74 /* cmnornamentsmixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A65013FD6D6000310111 /* cmnornamentsmixins.cpp */; };
+		8FA782071570C4950031FD74 /* corpus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A65213FD6D6000310111 /* corpus.cpp */; };
+		8FA782081570C4950031FD74 /* critapp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A65413FD6D6000310111 /* critapp.cpp */; };
+		8FA782091570C4950031FD74 /* critappmixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A65613FD6D6000310111 /* critappmixins.cpp */; };
+		8FA7820A1570C4950031FD74 /* edittrans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A65813FD6D6000310111 /* edittrans.cpp */; };
+		8FA7820B1570C4950031FD74 /* edittransmixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A65A13FD6D6000310111 /* edittransmixins.cpp */; };
+		8FA7820C1570C4950031FD74 /* facsimile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A65C13FD6D6000310111 /* facsimile.cpp */; };
+		8FA7820D1570C4950031FD74 /* facsimilemixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A65E13FD6D6000310111 /* facsimilemixins.cpp */; };
+		8FA7820E1570C4950031FD74 /* figtable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A66013FD6D6000310111 /* figtable.cpp */; };
+		8FA7820F1570C4950031FD74 /* figtablemixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A66213FD6D6000310111 /* figtablemixins.cpp */; };
+		8FA782101570C4950031FD74 /* harmony.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A66413FD6D6000310111 /* harmony.cpp */; };
+		8FA782111570C4950031FD74 /* harmonymixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A66613FD6D6000310111 /* harmonymixins.cpp */; };
+		8FA782121570C4950031FD74 /* header.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A66813FD6D6000310111 /* header.cpp */; };
+		8FA782131570C4950031FD74 /* headermixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A66A13FD6D6000310111 /* headermixins.cpp */; };
+		8FA782141570C4950031FD74 /* linkalign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A66C13FD6D6000310111 /* linkalign.cpp */; };
+		8FA782151570C4950031FD74 /* linkalignmixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A66E13FD6D6000310111 /* linkalignmixins.cpp */; };
+		8FA782161570C4950031FD74 /* lyrics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A67013FD6D6000310111 /* lyrics.cpp */; };
+		8FA782171570C4950031FD74 /* lyricsmixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A67213FD6D6000310111 /* lyricsmixins.cpp */; };
+		8FA782181570C4950031FD74 /* mensural.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A67413FD6D6000310111 /* mensural.cpp */; };
+		8FA782191570C4950031FD74 /* mensuralmixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A67613FD6D6000310111 /* mensuralmixins.cpp */; };
+		8FA7821A1570C4950031FD74 /* midi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A67813FD6D6000310111 /* midi.cpp */; };
+		8FA7821B1570C4950031FD74 /* midimixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A67A13FD6D6000310111 /* midimixins.cpp */; };
+		8FA7821C1570C4950031FD74 /* namesdates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A67C13FD6D6000310111 /* namesdates.cpp */; };
+		8FA7821D1570C4950031FD74 /* neumes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A67E13FD6D6000310111 /* neumes.cpp */; };
+		8FA7821E1570C4950031FD74 /* neumesmixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A68013FD6D6000310111 /* neumesmixins.cpp */; };
+		8FA7821F1570C4950031FD74 /* performance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A68213FD6D6000310111 /* performance.cpp */; };
+		8FA782201570C4950031FD74 /* ptrref.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A68413FD6D6000310111 /* ptrref.cpp */; };
+		8FA782211570C4950031FD74 /* shared.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A68613FD6D6000310111 /* shared.cpp */; };
+		8FA782221570C4950031FD74 /* sharedmixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A68813FD6D6000310111 /* sharedmixins.cpp */; };
+		8FA782231570C4950031FD74 /* tablaturemixins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A68A13FD6D6000310111 /* tablaturemixins.cpp */; };
+		8FA782241570C4950031FD74 /* text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A68C13FD6D6000310111 /* text.cpp */; };
+		8FA782251570C4950031FD74 /* usersymbols.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0514A68E13FD6D6000310111 /* usersymbols.cpp */; };
+		8FA782261570C4D20031FD74 /* xmlexport.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E397BC1401B1E000161BD2 /* xmlexport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782271570C4D20031FD74 /* xmlexport_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A64613FD6C3300310111 /* xmlexport_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782281570C4D20031FD74 /* xmlimport.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E397B514018B3E00161BD2 /* xmlimport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782291570C4D20031FD74 /* xmlimport_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A64013FD6BF100310111 /* xmlimport_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7822A1570C4D20031FD74 /* analysismixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A64913FD6D6000310111 /* analysismixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7822B1570C4D20031FD74 /* cmn.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A64B13FD6D6000310111 /* cmn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7822C1570C4D20031FD74 /* cmnmixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A64D13FD6D6000310111 /* cmnmixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7822D1570C4D20031FD74 /* cmnornaments.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A64F13FD6D6000310111 /* cmnornaments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7822E1570C4D20031FD74 /* cmnornamentsmixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A65113FD6D6000310111 /* cmnornamentsmixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7822F1570C4D20031FD74 /* corpus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A65313FD6D6000310111 /* corpus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782301570C4D20031FD74 /* critapp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A65513FD6D6000310111 /* critapp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782311570C4D20031FD74 /* critappmixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A65713FD6D6000310111 /* critappmixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782321570C4D20031FD74 /* edittrans.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A65913FD6D6000310111 /* edittrans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782331570C4D20031FD74 /* edittransmixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A65B13FD6D6000310111 /* edittransmixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782341570C4D20031FD74 /* facsimile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A65D13FD6D6000310111 /* facsimile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782351570C4D20031FD74 /* facsimilemixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A65F13FD6D6000310111 /* facsimilemixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782361570C4D20031FD74 /* figtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A66113FD6D6000310111 /* figtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782371570C4D20031FD74 /* figtablemixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A66313FD6D6000310111 /* figtablemixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782381570C4D20031FD74 /* harmony.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A66513FD6D6000310111 /* harmony.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782391570C4D20031FD74 /* harmonymixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A66713FD6D6000310111 /* harmonymixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7823A1570C4D20031FD74 /* header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A66913FD6D6000310111 /* header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7823B1570C4D20031FD74 /* headermixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A66B13FD6D6000310111 /* headermixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7823C1570C4D20031FD74 /* linkalign.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A66D13FD6D6000310111 /* linkalign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7823D1570C4D20031FD74 /* linkalignmixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A66F13FD6D6000310111 /* linkalignmixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7823E1570C4D20031FD74 /* lyrics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A67113FD6D6000310111 /* lyrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7823F1570C4D20031FD74 /* lyricsmixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A67313FD6D6000310111 /* lyricsmixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782401570C4D20031FD74 /* mensural.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A67513FD6D6000310111 /* mensural.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782411570C4D20031FD74 /* mensuralmixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A67713FD6D6000310111 /* mensuralmixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782421570C4D20031FD74 /* midi.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A67913FD6D6000310111 /* midi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782431570C4D20031FD74 /* midimixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A67B13FD6D6000310111 /* midimixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782441570C4D20031FD74 /* namesdates.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A67D13FD6D6000310111 /* namesdates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782451570C4D20031FD74 /* neumes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A67F13FD6D6000310111 /* neumes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782461570C4D20031FD74 /* neumesmixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A68113FD6D6000310111 /* neumesmixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782471570C4D20031FD74 /* performance.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A68313FD6D6000310111 /* performance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782481570C4D20031FD74 /* ptrref.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A68513FD6D6000310111 /* ptrref.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782491570C4D20031FD74 /* shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A68713FD6D6000310111 /* shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7824A1570C4D20031FD74 /* sharedmixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A68913FD6D6000310111 /* sharedmixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7824B1570C4D20031FD74 /* tablaturemixins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A68B13FD6D6000310111 /* tablaturemixins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7824C1570C4D20031FD74 /* text.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A68D13FD6D6000310111 /* text.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7824D1570C4D20031FD74 /* usersymbols.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514A68F13FD6D6000310111 /* usersymbols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7824E1570C4D20031FD74 /* mei.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F5D1781455B93C00CE6CE6 /* mei.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA7824F1570C4D20031FD74 /* meielement.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE4E742131D570100A59F5D /* meielement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782501570C4D20031FD74 /* meiattribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3CB63A13214C430054C2DC /* meiattribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782511570C4D20031FD74 /* meidocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDC6437132A90430062255E /* meidocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782521570C4D20031FD74 /* exceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2EE931133117D700C94712 /* exceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782531570C4D20031FD74 /* meinamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 053321C31402DBF400B89665 /* meinamespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA782541570C4D20031FD74 /* meicommon.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B63DA81445D89200029BB7 /* meicommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B3CB63E13214C430054C2DC /* meiattribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3CB63A13214C430054C2DC /* meiattribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B3CB63F13214C430054C2DC /* meiattribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CB63B13214C430054C2DC /* meiattribute.cpp */; };
 		9BDC643C132A905F0062255E /* meidocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDC6437132A90430062255E /* meidocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -262,6 +351,11 @@
 		825732E31431308800F3868D /* parttime.xsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = parttime.xsl; sourceTree = "<group>"; };
 		827EF455142CE661007B9789 /* mxmltomei.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mxmltomei.cpp; sourceTree = "<group>"; };
 		82C13696142CDC3500D052A0 /* mxmltomei */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mxmltomei; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA781C01570C39A0031FD74 /* libmei_static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmei_static.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA781C21570C39A0031FD74 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8FA781C51570C39A0031FD74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8FA781C61570C39A0031FD74 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8FA781C71570C39A0031FD74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B2EE931133117D700C94712 /* exceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = exceptions.h; path = src/exceptions.h; sourceTree = "<group>"; };
 		9B3CB63A13214C430054C2DC /* meiattribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = meiattribute.h; path = src/meiattribute.h; sourceTree = "<group>"; };
 		9B3CB63B13214C430054C2DC /* meiattribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = meiattribute.cpp; path = src/meiattribute.cpp; sourceTree = "<group>"; };
@@ -316,6 +410,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FA781BD1570C39A0031FD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -327,6 +428,7 @@
 				61DBCCCF1312C85D00B46918 /* mei.framework */,
 				05138CE514192BCC0093C907 /* mei-update */,
 				82C13696142CDC3500D052A0 /* mxmltomei */,
+				8FA781C01570C39A0031FD74 /* libmei_static.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -371,6 +473,7 @@
 				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
 				08FB77ACFE841707C02AAC07 /* Source */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				8FA781C11570C39A0031FD74 /* Frameworks */,
 				034768DDFF38A45A11DB9C8B /* Products */,
 			);
 			name = libmei;
@@ -458,6 +561,25 @@
 			);
 			name = mxmltomei;
 			path = util/mxmltomei;
+			sourceTree = "<group>";
+		};
+		8FA781C11570C39A0031FD74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA781C21570C39A0031FD74 /* Cocoa.framework */,
+				8FA781C41570C39A0031FD74 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FA781C41570C39A0031FD74 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA781C51570C39A0031FD74 /* AppKit.framework */,
+				8FA781C61570C39A0031FD74 /* CoreData.framework */,
+				8FA781C71570C39A0031FD74 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		9B11C8A5132E6C4E0090FDA6 /* Modules */ = {
@@ -606,6 +728,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FA781BE1570C39A0031FD74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA782261570C4D20031FD74 /* xmlexport.h in Headers */,
+				8FA782271570C4D20031FD74 /* xmlexport_impl.h in Headers */,
+				8FA782281570C4D20031FD74 /* xmlimport.h in Headers */,
+				8FA782291570C4D20031FD74 /* xmlimport_impl.h in Headers */,
+				8FA7822A1570C4D20031FD74 /* analysismixins.h in Headers */,
+				8FA7822B1570C4D20031FD74 /* cmn.h in Headers */,
+				8FA7822C1570C4D20031FD74 /* cmnmixins.h in Headers */,
+				8FA7822D1570C4D20031FD74 /* cmnornaments.h in Headers */,
+				8FA7822E1570C4D20031FD74 /* cmnornamentsmixins.h in Headers */,
+				8FA7822F1570C4D20031FD74 /* corpus.h in Headers */,
+				8FA782301570C4D20031FD74 /* critapp.h in Headers */,
+				8FA782311570C4D20031FD74 /* critappmixins.h in Headers */,
+				8FA782321570C4D20031FD74 /* edittrans.h in Headers */,
+				8FA782331570C4D20031FD74 /* edittransmixins.h in Headers */,
+				8FA782341570C4D20031FD74 /* facsimile.h in Headers */,
+				8FA782351570C4D20031FD74 /* facsimilemixins.h in Headers */,
+				8FA782361570C4D20031FD74 /* figtable.h in Headers */,
+				8FA782371570C4D20031FD74 /* figtablemixins.h in Headers */,
+				8FA782381570C4D20031FD74 /* harmony.h in Headers */,
+				8FA782391570C4D20031FD74 /* harmonymixins.h in Headers */,
+				8FA7823A1570C4D20031FD74 /* header.h in Headers */,
+				8FA7823B1570C4D20031FD74 /* headermixins.h in Headers */,
+				8FA7823C1570C4D20031FD74 /* linkalign.h in Headers */,
+				8FA7823D1570C4D20031FD74 /* linkalignmixins.h in Headers */,
+				8FA7823E1570C4D20031FD74 /* lyrics.h in Headers */,
+				8FA7823F1570C4D20031FD74 /* lyricsmixins.h in Headers */,
+				8FA782401570C4D20031FD74 /* mensural.h in Headers */,
+				8FA782411570C4D20031FD74 /* mensuralmixins.h in Headers */,
+				8FA782421570C4D20031FD74 /* midi.h in Headers */,
+				8FA782431570C4D20031FD74 /* midimixins.h in Headers */,
+				8FA782441570C4D20031FD74 /* namesdates.h in Headers */,
+				8FA782451570C4D20031FD74 /* neumes.h in Headers */,
+				8FA782461570C4D20031FD74 /* neumesmixins.h in Headers */,
+				8FA782471570C4D20031FD74 /* performance.h in Headers */,
+				8FA782481570C4D20031FD74 /* ptrref.h in Headers */,
+				8FA782491570C4D20031FD74 /* shared.h in Headers */,
+				8FA7824A1570C4D20031FD74 /* sharedmixins.h in Headers */,
+				8FA7824B1570C4D20031FD74 /* tablaturemixins.h in Headers */,
+				8FA7824C1570C4D20031FD74 /* text.h in Headers */,
+				8FA7824D1570C4D20031FD74 /* usersymbols.h in Headers */,
+				8FA7824E1570C4D20031FD74 /* mei.h in Headers */,
+				8FA7824F1570C4D20031FD74 /* meielement.h in Headers */,
+				8FA782501570C4D20031FD74 /* meiattribute.h in Headers */,
+				8FA782511570C4D20031FD74 /* meidocument.h in Headers */,
+				8FA782521570C4D20031FD74 /* exceptions.h in Headers */,
+				8FA782531570C4D20031FD74 /* meinamespace.h in Headers */,
+				8FA782541570C4D20031FD74 /* meicommon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -694,6 +870,23 @@
 			productReference = 82C13696142CDC3500D052A0 /* mxmltomei */;
 			productType = "com.apple.product-type.tool";
 		};
+		8FA781BF1570C39A0031FD74 /* mei_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA781D01570C39A0031FD74 /* Build configuration list for PBXNativeTarget "mei_static" */;
+			buildPhases = (
+				8FA781BC1570C39A0031FD74 /* Sources */,
+				8FA781BD1570C39A0031FD74 /* Frameworks */,
+				8FA781BE1570C39A0031FD74 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mei_static;
+			productName = mei_static;
+			productReference = 8FA781C01570C39A0031FD74 /* libmei_static.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -722,6 +915,7 @@
 				61DBCCCE1312C85D00B46918 /* mei */,
 				05138CE414192BCC0093C907 /* mei-update */,
 				82C13695142CDC3500D052A0 /* mxmltomei */,
+				8FA781BF1570C39A0031FD74 /* mei_static */,
 			);
 		};
 /* End PBXProject section */
@@ -823,6 +1017,55 @@
 			files = (
 				827EF456142CE661007B9789 /* mxmltomei.cpp in Sources */,
 				825732E1142D09AA00F3868D /* mxmlparser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA781BC1570C39A0031FD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA781FC1570C45B0031FD74 /* xmlexport.cpp in Sources */,
+				8FA781FD1570C45E0031FD74 /* xmlimport.cpp in Sources */,
+				8FA781FE1570C4680031FD74 /* meielement.cpp in Sources */,
+				8FA781FF1570C4680031FD74 /* meiattribute.cpp in Sources */,
+				8FA782021570C4950031FD74 /* analysismixins.cpp in Sources */,
+				8FA782031570C4950031FD74 /* cmn.cpp in Sources */,
+				8FA782041570C4950031FD74 /* cmnmixins.cpp in Sources */,
+				8FA782051570C4950031FD74 /* cmnornaments.cpp in Sources */,
+				8FA782061570C4950031FD74 /* cmnornamentsmixins.cpp in Sources */,
+				8FA782071570C4950031FD74 /* corpus.cpp in Sources */,
+				8FA782081570C4950031FD74 /* critapp.cpp in Sources */,
+				8FA782091570C4950031FD74 /* critappmixins.cpp in Sources */,
+				8FA7820A1570C4950031FD74 /* edittrans.cpp in Sources */,
+				8FA7820B1570C4950031FD74 /* edittransmixins.cpp in Sources */,
+				8FA7820C1570C4950031FD74 /* facsimile.cpp in Sources */,
+				8FA7820D1570C4950031FD74 /* facsimilemixins.cpp in Sources */,
+				8FA7820E1570C4950031FD74 /* figtable.cpp in Sources */,
+				8FA7820F1570C4950031FD74 /* figtablemixins.cpp in Sources */,
+				8FA782101570C4950031FD74 /* harmony.cpp in Sources */,
+				8FA782111570C4950031FD74 /* harmonymixins.cpp in Sources */,
+				8FA782121570C4950031FD74 /* header.cpp in Sources */,
+				8FA782131570C4950031FD74 /* headermixins.cpp in Sources */,
+				8FA782141570C4950031FD74 /* linkalign.cpp in Sources */,
+				8FA782151570C4950031FD74 /* linkalignmixins.cpp in Sources */,
+				8FA782161570C4950031FD74 /* lyrics.cpp in Sources */,
+				8FA782171570C4950031FD74 /* lyricsmixins.cpp in Sources */,
+				8FA782181570C4950031FD74 /* mensural.cpp in Sources */,
+				8FA782191570C4950031FD74 /* mensuralmixins.cpp in Sources */,
+				8FA7821A1570C4950031FD74 /* midi.cpp in Sources */,
+				8FA7821B1570C4950031FD74 /* midimixins.cpp in Sources */,
+				8FA7821C1570C4950031FD74 /* namesdates.cpp in Sources */,
+				8FA7821D1570C4950031FD74 /* neumes.cpp in Sources */,
+				8FA7821E1570C4950031FD74 /* neumesmixins.cpp in Sources */,
+				8FA7821F1570C4950031FD74 /* performance.cpp in Sources */,
+				8FA782201570C4950031FD74 /* ptrref.cpp in Sources */,
+				8FA782211570C4950031FD74 /* shared.cpp in Sources */,
+				8FA782221570C4950031FD74 /* sharedmixins.cpp in Sources */,
+				8FA782231570C4950031FD74 /* tablaturemixins.cpp in Sources */,
+				8FA782241570C4950031FD74 /* text.cpp in Sources */,
+				8FA782251570C4950031FD74 /* usersymbols.cpp in Sources */,
+				8FA782001570C4680031FD74 /* meidocument.cpp in Sources */,
+				8FA782011570C4680031FD74 /* meinamespace.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1098,6 +1341,47 @@
 			};
 			name = Release;
 		};
+		8FA781CE1570C39A0031FD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /include/mei;
+			};
+			name = Debug;
+		};
+		8FA781CF1570C39A0031FD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /include/mei;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1154,6 +1438,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8FA781D01570C39A0031FD74 /* Build configuration list for PBXNativeTarget "mei_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA781CE1570C39A0031FD74 /* Debug */,
+				8FA781CF1570C39A0031FD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
