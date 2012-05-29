@@ -351,7 +351,7 @@
 		825732E31431308800F3868D /* parttime.xsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = parttime.xsl; sourceTree = "<group>"; };
 		827EF455142CE661007B9789 /* mxmltomei.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mxmltomei.cpp; sourceTree = "<group>"; };
 		82C13696142CDC3500D052A0 /* mxmltomei */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mxmltomei; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FA781C01570C39A0031FD74 /* libmei_static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmei_static.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA781C01570C39A0031FD74 /* libmeid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmeid.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA781C21570C39A0031FD74 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8FA781C51570C39A0031FD74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8FA781C61570C39A0031FD74 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -428,7 +428,7 @@
 				61DBCCCF1312C85D00B46918 /* mei.framework */,
 				05138CE514192BCC0093C907 /* mei-update */,
 				82C13696142CDC3500D052A0 /* mxmltomei */,
-				8FA781C01570C39A0031FD74 /* libmei_static.a */,
+				8FA781C01570C39A0031FD74 /* libmeid.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -884,7 +884,7 @@
 			);
 			name = mei_static;
 			productName = mei_static;
-			productReference = 8FA781C01570C39A0031FD74 /* libmei_static.a */;
+			productReference = 8FA781C01570C39A0031FD74 /* libmeid.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -1359,7 +1359,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = meid;
 				PUBLIC_HEADERS_FOLDER_PATH = /include/mei;
 			};
 			name = Debug;
@@ -1377,7 +1377,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = mei;
 				PUBLIC_HEADERS_FOLDER_PATH = /include/mei;
 			};
 			name = Release;
@@ -1446,6 +1446,7 @@
 				8FA781CF1570C39A0031FD74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
