@@ -217,7 +217,7 @@ MeiElement* XmlImportImpl::xmlNodeToMeiElement(xmlNode *el) {
     return obj;
 }
 
-bool XmlImportImpl::checkCompatibility(xmlNode *r) throw(NoVersionFoundException, VersionMismatchException) {
+bool XmlImportImpl::checkCompatibility(xmlNode *r) {
     xmlAttrPtr meivers = xmlHasProp(r, (const xmlChar*)"meiversion");
     if (meivers == NULL) {
         throw NoVersionFoundException("");
